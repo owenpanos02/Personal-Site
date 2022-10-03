@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owen Panos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="icon" type="image/png" href="static\icon2.png">
+  </head>
+<body>
+  <div class='nav-links'>
+    <a class='nav-home' href="/">Home</a>
+    <a class="nav-contact" href="/contact">Contact</a>
+    <a class="nav-projects" href="/projects">Projects</a>
+  </div>
+  
+  <div class="projects-title">
+    <h1>Projects</h1>
+  </div>
+  
+  <div class="github">
+    <a class="github-button" href="https://github.com/owenpanos02" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large" aria-label="button_label" height="300px">Github</a>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </div>
+
+  <div class="project-nav">
+    <a class="budget_app_nav" href="#budget">Budget App</a><br><br>
+    <a class="twitter_app_nav" href="#twitter">Sentiment Analysis</a><br><br>
+    <a class="yt_mp3_nav" href="#youtube">Youtube to MP3</a>
+  </div>
+
+  <div class="projects_container">
+    
+    <div class="budget_app" id="budget">
+      
+      <div class="budget_app_title">
+        <h3>Twitter Sentiment Analysis</h3>
+      
+      </div>
+      
+      <div class="budget_app_img">
+          <a href="http://owenpanos.pythonanywhere.com/"><img id="budget_app_demo" src="/static/budget_demo.png" height="500px"></a>
+      
+      </div>
+
+      <div class="github-repo">
+        <a href="https://github.com/owenpanos02/budget_app"><img src="static/github.png" height="50px"></a>
+
+      </div>
+      
+      <div class="budget_app_text">
+          <p>A simple budget tracking app with visualization chart.<br> Uses Python, HTML, CSS, and Sqlite DB.</p>
+      
+      </div>
+    </div>
+    <div class="twitter_app" id="twitter">
+      <div class="twitter_app_title">
+        <h3>Twitter Sentiment Analysis</h3>
+      </div>
+      <div class="twitter_app_img">
+        <img src="/static/twitter_app_demo.png" height="500px">
+      </div>
+      <div class="github-repo">
+        <a href="https://github.com/owenpanos02/TwitterCheck"><img src="static/github.png" height="50px"></a>
+
+      </div>
+      <div class="twitter_app_text">
+        <p>Powered by Twitter's API, this program takes the 50 most recent tweets on a given subject/person<br> and uses sentiment analysis to classify it as positive, negative, or neutral.<br> The app is complete with a chart for visualization. Uses Python, HTML, and CSS.</p>
+      </div>
+    </div>
+    <div class="yt_mp3" id="youtube">
+      
+      <div class="yt_mp3_title">
+        <h3>Youtube to MP3</h3>
+      </div>
+      
+      <div class="yt_mp3_img">
+        <img src="/static/yt_demo.png">
+      </div>
+
+      <div class="github-repo">
+        <a href="https://github.com/owenpanos02/yt_to_mp3"><img src="static/github.png" height="50px"></a>
+      </div>
+
+      <div class="yt_mp3_text">
+        <p>Simple file converter with Tkinter GUI. Simply paste a youtube video<br> link into the input field and .mp3 version is downloaded.</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
