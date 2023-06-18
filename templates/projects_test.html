@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owen Panos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="icon" type="image/png" href="static\icon2.png">
+  </head>
+<body>
+    <div class='nav-links'>
+        <a class='nav-home' href="/">Home</a>
+        <a class='nav-contact' href="/contact">Contact</a>
+        <a class='nav-projects' href="/projects">Projects</a>
+    </div>
+    <div class="projects-title">
+    <h1>Projects</h1>
+    </div>
+        <main>
+          <div class="projects-container">
+      <section class="Jeff">
+        <img src="static/budget_demo.png" alt="Jeff">
+        <p>Finance/Budget Tracker App. Features SQLite DB backend and matplotlib graph visualization.</p>     
+        <a href="https://github.com/owenpanos02/budget_app" target="_blank">Budget App</a>
+        
+      </section>
+      <section class="Blaze">
+        <img src="static/twitter_app_demo.png" alt="Blaze" height="300px">
+        <p>Powered by Tweepy API and TextBlob sentiment analysis. Searches recent twitter mentions of a person or subject and classifies if the tweet is positive, neutral, or negative.</p>
+        <a href="https://github.com/owenpanos02/TwitterCheck" target="_blank">TwitterCheck</a>
+      </section>
+          <section class="PizzaP">
+        <img src="static/yt_demo.png" alt="PizzaP">
+        <p>Simple Youtube file converter. Complete with tkinter GUI.</p>
+        <a href="https://github.com/owenpanos02/yt_to_mp3" target="_blank">Youtube to MP3</a>
+      </section>
+      </section>
+</body>
+</html>

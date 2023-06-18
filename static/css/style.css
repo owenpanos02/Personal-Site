@@ -46,11 +46,13 @@ Hover on nav bar
 }
 
 body {
-    background-color: #192734 ;
+    background: #192734;
     color: #B8B8D9;
     font-family: 'open_sansregular';
 
 }
+
+
 .title {
     margin-top: 3%;
     padding: 5px;
@@ -156,18 +158,6 @@ button[type='submit'] {
     
 }
 
-.budget_app {
-    position: relative;
-    padding: 10px;
-    text-align: center;
-}
-.budget_app_title {
-    font-size: 30px;
-}
-.budget_app_text {
-    font-size: 20px;
-}
-
 .twitter_app {
     position: relative;
     text-align: center;
@@ -222,3 +212,64 @@ button[type='submit'] {
     
 }
 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .Blaze,
+  .Jeff,
+  .PizzaP{
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Blaze img,
+  .Jeff img,
+  .PizzaP img{
+    width: 100%;
+    height: 300px; /* set a fixed height for the image container */
+    
+    object-fit: fill; /* make the image fill the container while maintaining aspect ratio */
+  }
+  
+  .Blaze h2,
+  .Jeff h2,
+  .PizzaP h2{
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .Blaze p,
+  .Jeff p,
+  .PizzaP p,
+  .PizzaH p{
+    font-size: 18px;
+    margin: 0px 0;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  .Blaze a,
+  .Jeff a,
+  .PizzaP a{
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .Blaze a:hover,
+  .Jeff a:hover,
+  .PizzaP a:hover{
+    background-color: #B8B8D9;
+  }

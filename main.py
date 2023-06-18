@@ -16,5 +16,10 @@ def contact():
 
 @app.route("/projects")
 def projects():
-    return(render_template('projects.html'))
+    return(render_template('projects_test.html'))
+
+
+if __name__ == '__main__':
+    app.run(host="127.0.0.1", port=9087, debug=True)
+
 
